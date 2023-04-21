@@ -98,6 +98,10 @@ a {
     
 }
 
+.botao_voltar {
+    color: black;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -140,26 +144,26 @@ a:hover {
     align-items: center;
 }
 
-.cadastro_ong {
-    margin: 6% 25%;
-    width: 605px;
-    height: 434px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
+.cadastro_ong, .cadastro_pet {
+    height: 600px;
 }
 
-.cadastro_pet {
-    margin: 6% 25%;
-    width: 605px;
-    height: 434px;
+.cadastro_ong_conteudo {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
+    margin-top: 5em;
+}
+
+
+.cadastro_pet_conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5em;
+    gap: 4px;
 }
 
 
@@ -174,14 +178,16 @@ textarea {
 }
 
 button {
-    width: 266px;
-    height: 51px;
+    width: 160px;
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 5px;
     background: #75BDFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     color: #ffffff;
     font-family: 'Lilita One';
-    font-size: 24px;
+    font-size: 20px;
     border-style: hidden;
 }
 
@@ -208,15 +214,25 @@ input {
     background-color: #D9D9D9;
 }
 
+.login_conteudo_formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+
 .login {
-    margin: 15%;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+
 .login_conteudo {
-    margin: 0%;
     display: flex;
     align-items: center;
     justify-content: center;
