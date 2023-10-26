@@ -13,8 +13,8 @@
     <main> 
         <section id="home">
             <section class="cabecalho">
-                <nav class="cabecalho-menu">
                     <a href="index.html"><img src="img/logo-menor.png" alt="logo Petmatching"></a>
+                <nav class="cabecalho-menu">
                     <a class=cabecalho-menu-item href="#home">Home</a>
                     <a class=cabecalho-menu-item href="#quem_somos">Quem Somos</a>
                     <a class=cabecalho-menu-item href="#pets">Pets</a>
@@ -24,24 +24,23 @@
                 </nav>
             </section>
             <section class="conteudo_inicial">
-                <div class="conteudo_inicial_box1">
+                <div class="conteudo_inicial_box">
                     <h1 class="conteudo_inicial_titulo">NÃO COMPRE, ADOTE!</H1>
                     <a class="conteudo_inicial_botao" href="#pets">Quero adotar</a>
-                    <!-- <button class="conteudo-inicial-botao">Quero adotar</button> -->
                 </div>
-                <img class="conteudo-inicial-imagem" src="img/background_home2.jpg" alt="Imagem de cachorro">
+                <img class="imagem" src="img/background_home2.jpg" alt="Imagem de cachorro">
             </section>
         </section>
         <section id="quem_somos">
             <h1>Quem somos</h1>
             <h2>O PetMatching é uma plataforma criada para ajudar animais de ONG’s e abrigos a encontrarem um novo lar. Agimos de forma ATIVA e PREVENTIVA:</h2>
             <section class="quem_somos_conteudo">
-                <img src="img/img3 dog_quemsomos.png" alt="">
+                <img class="imagem" src="img/img3 dog_quemsomos.png" alt="Imagem de um cachorro com pelagem de cor preta e bege, e uma mão humana em seu focinho.">
                 <div class="quem_somos_prevencao">
                     <h2>PREVENÇÃO</h2>
                     <p>disponibilizando material de conscientização e programa de adoção responsável.</p>
                 </div>
-                    <img src="img/img2 cat_quemsomos.png" alt="">
+                    <img class="imagem" src="img/img2 cat_quemsomos.png" alt="Imagem de um gato de pelagem laranja, recebendo carinho de um humano.">
                 <div class="quem_somos_cao">
                     <h2>AÇÃO</h2>
                     <p>conectando animais de abrigos e ONG's com adotantes em potencial.</p>
@@ -54,7 +53,7 @@
             <section class="pets_conteudo">
                 <div class="Bob">
                     <h2>Bob</h2>
-                    <img src="img/img4 bob_queroadotar.png">
+                    <img class="imagem" src="img/img4 bob_queroadotar.png" alt="Imagem de um cachorro filhote de pelagem branca e coleira verde.">
                     <ul>
                         <li>Animal: cachorro</li>
                         <li>Nome: Bob</li>
@@ -67,10 +66,13 @@
                         <li>Telefone: (11)11111-1111</li>
                         <li>E-mail: matilhadaba@hotmail.com</li>
                     </ul>
+                    <div class="localizacao_item">
+                        <a href="localizacao.html" class="localizacao_link">Encontre aqui localização deste pet!</a>
+                    </div>
                 </div>
                 <div class="Julia">
                     <h2>Julia</h2>
-                    <img src="img/img5 julia_queroadotar.png">
+                    <img class="imagem" src="img/img5 julia_queroadotar.png" alt="Imagem de uma gata de pelagem branca, preta e marrom, e olhos verdes.">
                     <ul>
                         <li>Animal: gato</li>
                         <li>Nome: Julia</li>
@@ -83,10 +85,13 @@
                         <li>Telefone: (11)11111-1111</li>
                         <li>E-mail: matilhadaba@hotmail.com</li>
                     </ul>
+                    <div class="localizacao_item">
+                        <a href="localizacao.html" class="localizacao_link">Encontre aqui localização deste pet!</a>
+                    </div>
                 </div>
                 <div class="Francisca">
                     <h2>Francisca</h2>
-                    <img src="img/img6 francisca_queroadotar.png">
+                    <img class="imagem" src="img/img6 francisca_queroadotar.png" alt="Imagem de uma cadela filhote, de pelagem preta e marrom.">
                     <ul>
                         <li>Animal: cachorro</li>
                         <li>Nome: Francisca</li>
@@ -99,6 +104,9 @@
                         <li>Telefone: (11)11111-1111</li>
                         <li>E-mail: matilhadaba@hotmail.com</li>
                     </ul>
+                    <div class="localizacao_item">
+                        <a href="localizacao.HTML" class="localizacao_link">Encontre aqui localização deste pet!</a>
+                    </div>
                 </div>
             </section>
         </section>
@@ -106,13 +114,13 @@
         <section id="blog">
             <h1>Nosso blog</h1>
             <section class="blog_conteudo">
-                <img src="img/img7 dog_nossoblog.png" alt="">
+                <img class="imagem" src="img/img7 dog_nossoblog.png" alt="Imagem em preto e branco de um cachorro da raça labrador, recebendo carinho de um humano.">
                 <div class="blog_conteudo_box1">
                     <h2>Maus tratos: como denunciar?</h2>
                     <br>
                     <a href="" class="leia_mais">Leia mais</a>
                 </div>
-                    <img src="img/img8 cat_nossoblog.png" alt="">
+                    <img class="imagem" src="img/img8 cat_nossoblog.png" alt="Imagem de um gato branco e laranja, recebendo carinho de um humano.">
                 <div class="blog_conteudo_box2">
                     <h2>O que é uma adoção responsável?</h2>
                     <br>
@@ -121,6 +129,36 @@
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+         <div class = "container">
+            <!-- primeira coluna-->
+            <ul>
+                <h3>PetMatching</h3>
+                <p> Não compre! Adote!</p>
+            </ul>
+            
+            <!-- segunda coluna-->
+            <ul>
+                <h3>Links</h3>
+                <p><a href="cadastro ong.html">Cadastrar ONG</a><p>
+                <p><a href="login.html">Quem somos</a></p>
+
+            </ul>
+            
+            <!-- terceira coluna-->
+            <ul>
+                <h3><a href=acessibilidade.html>Acessibilidade</a></h3>
+                
+            </ul>
+
+            <!-- quarta coluna-->
+            <ul>
+                <h3>Contate-nos</h3>
+                <p> (11) 123456789 </p>
+                <p> petmatching@gmail.com</p>
+                <p> Brasil</p>
+            </ul>            
+            </div>
+    </footer>
 </body>
 </html>
