@@ -94,6 +94,7 @@ p, li {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.25rem;
     list-style-type: none;
+    margin: 0.3em;
 }
 
 a {
@@ -355,10 +356,18 @@ footer .container li {
 
 }
 
-.info_pet_1, .info_pet_2, .info_pet_3 {
+.info_pet_1, .info_pet_2, .info_pet_3  {
     margin: 1em;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_pet_1_texto, .info_pet_2_texto, .info_pet_3_texto {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
